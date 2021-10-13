@@ -13,6 +13,7 @@
         <module>jspang582-jackson</module>
         <module>jspang582-zookeeper</module>
         <module>jspang582-spring</module>
+        <module>jspang582-dubbo</module>
     </modules>
 
     <properties>
