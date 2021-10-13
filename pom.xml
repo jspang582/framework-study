@@ -12,6 +12,7 @@
         <module>jspang582-redis</module>
         <module>jspang582-jackson</module>
         <module>jspang582-zookeeper</module>
+        <module>jspang582-spring</module>
     </modules>
 
     <properties>
@@ -25,4 +26,17 @@
             <version>1.18.8</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
