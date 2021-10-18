@@ -5,7 +5,7 @@
     <parent>
         <artifactId>jspang582</artifactId>
         <groupId>com.github.jspang582</groupId>
-        <version>1.0</version>
+        <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -15,6 +15,7 @@
         <module>dubbo-api</module>
         <module>dubbo-consumer</module>
         <module>dubbo-provider</module>
+        <module>dubbo-spi</module>
     </modules>
 
 

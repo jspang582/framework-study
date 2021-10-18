@@ -18,13 +18,21 @@
 
     <properties>
         <revision>1.0</revision>
+        <lombok.version>1.18.8</lombok.version>
+        <junit.version>4.12</junit.version>
+        <!-- Test libs -->
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.8</version>
+            <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
         </dependency>
     </dependencies>
 
