@@ -16,6 +16,7 @@
         <module>jspang582-dubbo</module>
         <module>jspang582-springboot</module>
         <module>jspang582-jdk</module>
+        <module>jspang582-mybatis</module>
     </modules>
 
     <properties>

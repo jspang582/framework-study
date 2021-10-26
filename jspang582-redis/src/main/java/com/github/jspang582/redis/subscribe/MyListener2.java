@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyListener2 implements MessageListener {
 
-
+    @Override
     public void onMessage(Message message, byte[] pattern) {
         System.out.println( "Message received2: " + message.toString() );
     }
