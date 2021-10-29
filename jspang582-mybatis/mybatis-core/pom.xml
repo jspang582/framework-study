@@ -3,25 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>jspang582</artifactId>
+        <artifactId>jspang582-mybatis</artifactId>
         <groupId>com.github.jspang582</groupId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jspang582-mybatis</artifactId>
-
-    <modules>
-        <module>mybatis-core</module>
-    </modules>
+    <artifactId>mybatis-core</artifactId>
 
 
-    <dependencies>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.47</version>
-        </dependency>
-    </dependencies>
 
 </project>
