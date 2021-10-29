@@ -1,4 +1,4 @@
-package com.github.jspang582.data;
+package com.github.jspang582.redis.data;
 
 import org.junit.After;
 import org.junit.Before;

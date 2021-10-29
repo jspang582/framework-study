@@ -1,4 +1,4 @@
-package com.github.jspang582.data;
+package com.github.jspang582.redis.data;
 
 /**
  * 栈,FILO

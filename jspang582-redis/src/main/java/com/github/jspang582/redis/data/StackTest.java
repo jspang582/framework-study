@@ -19,7 +19,7 @@ public class StackTest {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext applicationContext = SpringApplication.run(StackTest.class, args);
-        com.github.jspang582.data.Stack<String>  stack= applicationContext.getBean(RedisStackImpl.class);
+        Stack<String>  stack= applicationContext.getBean(RedisStackImpl.class);
         stack.push("1");
         stack.push("2");
         stack.push("3");

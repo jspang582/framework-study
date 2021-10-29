@@ -11,7 +11,7 @@ import org.springframework.data.redis.core.StringRedisTemplate;
  * @date: 2021/10/26 14:30
  */
 @AllArgsConstructor
-public class RedisStackImpl implements com.github.jspang582.data.Stack<String> {
+public class RedisStackImpl implements Stack<String> {
 
     private StringRedisTemplate stringRedisTemplate;
 

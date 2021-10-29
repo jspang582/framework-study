@@ -13,4 +13,4 @@
  * @email: fli@sstir.cn
  * @date: 2021/10/26 14:47
  */
-package com.github.jspang582.data;
+package com.github.jspang582.redis.data;
