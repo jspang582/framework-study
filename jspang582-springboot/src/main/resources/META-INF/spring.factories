@@ -9,3 +9,7 @@ com.jspang582.springboot.autoconfigure.MyAutoConfiguration
 # Auto Configuration Import Listeners
 org.springframework.boot.autoconfigure.AutoConfigurationImportListener=\
 com.jspang582.springboot.autoconfigure.MyAutoConfigurationImportListener
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.jspang582.springboot.autoconfigure.MyInitializerListener
