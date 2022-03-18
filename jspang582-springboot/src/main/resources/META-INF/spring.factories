@@ -1,0 +1,11 @@
+# Auto Configuration Import Filters
+org.springframework.boot.autoconfigure.AutoConfigurationImportFilter=\
+com.jspang582.springboot.autoconfigure.MyConfigurationImportFilter
+
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jspang582.springboot.autoconfigure.MyAutoConfiguration
+
+# Auto Configuration Import Listeners
+org.springframework.boot.autoconfigure.AutoConfigurationImportListener=\
+com.jspang582.springboot.autoconfigure.MyAutoConfigurationImportListener
